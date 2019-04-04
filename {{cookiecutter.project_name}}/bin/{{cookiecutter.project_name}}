@@ -1,0 +1,8 @@
+
+from {{cookiecutter.project_name}}.src.{{cookiecutter.project_name}} import {{cookiecutter.project_name}}
+
+# TODO: if ck.command line args: add here
+
+if __name__ == "__main__":
+    {{cookiecutter.project_name}}()
+

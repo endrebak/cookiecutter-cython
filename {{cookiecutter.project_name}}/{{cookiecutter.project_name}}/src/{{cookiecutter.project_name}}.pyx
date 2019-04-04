@@ -1,9 +1,7 @@
-
 from libc.stdint cimport int32_t
 
 
-
-cpdef function():
+cpdef {{cookiecutter.project_name}}():
 
     cdef :
         int32_t hi = 5
